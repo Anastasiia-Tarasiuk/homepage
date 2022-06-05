@@ -32,11 +32,11 @@ a {
     justify-content: space-between;
 }
 
-.fv {
+/* .fv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .resume {
     margin: 50px auto;
@@ -178,13 +178,31 @@ a {
 
 /* Experience and additonal info styles */
 
-.experiences {
+.experiences,
+.tech-skills,
+.previous-experiences {
     flex: 1 1 50%;
     margin-right: 50px;
 }
 
+.education,
+.soft-skills,
+.languages  {
+    flex: 1 1 50%;
+}
+
+.soft-skills__list,
+.tech-skills__list,
+.languages__list {
+    margin-left: 20px;
+}
+
 .experiences__header,
-.education__header {
+.education__header,
+.tech-skills__header,
+.soft-skills__header,
+.languages__header,
+.previous-experiences__header {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
@@ -198,7 +216,6 @@ a {
 .experiences__company-header-durability {
     color: var(--durability-text-color);
     text-align: left;
-
     font-size: 15px;
 }
 
@@ -207,7 +224,6 @@ a {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    /* margin-bottom: 20px; */
 }
 
 .experiences__company-project {
@@ -233,11 +249,8 @@ a {
     padding-left: 20px;
 }
 
-.additional-info {
-    flex: 1 1 40%;
-}
 
-.additional-info__education {
+/* .additional-info__education {
     margin-bottom: 20px;
 }
 
@@ -276,4 +289,4 @@ a {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
-}
+} */
