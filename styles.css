@@ -17,9 +17,11 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
+
 a {
     text-decoration: none;
 }
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -186,7 +188,7 @@ a {
 
 .education,
 .soft-skills,
-.languages  {
+.languages {
     flex: 1 1 50%;
 }
 
