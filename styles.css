@@ -147,12 +147,14 @@ a {
     justify-content: center;
 }
 
-.intro__icon {
+.intro__icon,
+.aditional-info__icon {
     height: 1.1428rem;
     vertical-align: text-bottom;
 }
 
-.intro__icon path {
+.intro__icon path,
+.aditional-info__icon path {
     fill: var(--text-decoration-color);
 }
 
