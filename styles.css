@@ -17,7 +17,9 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
-
+a {
+    text-decoration: none;
+}
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -177,20 +179,26 @@ body {
 /* Experience and additonal info styles */
 
 .experiences {
-    flex: 1 1 60%;
+    flex: 1 1 50%;
     margin-right: 50px;
 }
 
-.experiences__header {
-    color: var(--secondary-text-color);
+.experiences__header,
+.education__header {
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 20px;
+}
+
+.experiences__company-header,
+.education__company-header {
+    margin-bottom: 10px;
 }
 
 .experiences__company-header-durability {
     color: var(--durability-text-color);
     text-align: left;
-    margin-bottom: 10px;
+
     font-size: 15px;
 }
 
@@ -199,7 +207,7 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .experiences__company-project {
